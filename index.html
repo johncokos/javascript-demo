@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      background: #c0c0c0;
+    }
+  </style>
+
+  <script>
+    let temperature = prompt("What is the temperature?");
+    console.log(temperature + " degrees");
+
+    // if less than 40 say "brrr"
+    // if > 79 say "nice day"
+    // otherwise say "meh"
+
+    let message = "";
+
+    if (temperature < 40) {
+      message = "Brrrrrrr";
+    }
+    else if (temperature > 79) {
+      message = "Nice Day!"
+    }
+    else {
+      message = "Meh";
+    }
+
+    document.write(message);
+
+    // Confirm = true/false or a "boolean"
+    let fan = confirm("Do you like the Seahawks?");
+    console.log(fan);
+
+  </script>
+
+</head>
+
+<body>
+  <div>This is the body</div>
+  <section></section>
+</body>
+
+</html>
